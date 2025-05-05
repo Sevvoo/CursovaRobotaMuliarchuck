@@ -10,7 +10,7 @@ namespace StackQueueAppWinForms
     /// <summary>
     /// Вузол двозв'язного списку для збереження цілочисельних значень.
     /// </summary>
-    class Node
+    public class Node
     {
         public int Data;
         public Node Next;
@@ -27,7 +27,7 @@ namespace StackQueueAppWinForms
     /// <summary>
     /// Саморозширюваний двозв'язний список з операціями додавання, видалення, вставки та очищення.
     /// </summary>
-    class MyList
+    public class MyList
     {
         private Node head;
         private Node tail;
